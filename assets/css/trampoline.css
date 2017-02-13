@@ -1,0 +1,10 @@
+#trampoline{
+position:absolute;
+width:960px;
+height:300px;
+margin-left:-480px;
+}
+
+#twee {
+	display:none;
+}

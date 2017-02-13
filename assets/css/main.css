@@ -1,0 +1,114 @@
+@font-face {
+	font-family: ANDRT___;
+	src: url(../fonts/ANDRT___.ttf);
+}
+
+@font-face {
+	font-family: Linowrite;
+	src: url(../fonts/linowrite.ttf);
+}
+
+@font-face {
+	font-family: ADLER;
+	src: url(../fonts/ADLER___.ttf);
+}
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+body {
+	background-color:black;
+	min-height:1100px;
+}
+
+#pic {
+	margin:0px auto;
+	width:960px;
+	height:960px;
+	background-color:black;
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#papier {
+	background:url('../img/papier.png') no-repeat;
+	background-size:960px 350px;
+	width:960px;
+	height:320px;
+}
+
+h1 {
+	margin-top:10px;
+	font-family:'ADLER';
+	height:40px;
+	color:#af0000;
+	text-align:center;
+}
+
+p {
+	margin:0px auto;
+	width:800px;
+	color:#910000;
+	text-align:center;
+	font-family:'Linowrite';
+	position:relative;
+	top:50px;
+}
+
+a {
+	text-decoration:none;
+	width:200px;
+	height:40px;
+	padding:10px;
+	line-height:40px;
+	color:white;
+	background-color:gray;
+	border-radius:5px;
+	text-transform:uppercase;
+	/*Transitions*/
+		-webkit-transition: all ease-in-out;
+		-moz-transition: all ease-in-out;
+		-o-transition: all ease-in-out;
+		-ms-transition: all ease-in-out;
+		transition: all ease-in-out;
+		transition-duration:300ms;	
+}
+
+a:hover {
+	text-shadow:2px 2px 1px black;
+}
+
+#input {
+	margin-top:80px;
+}
+
+/*#neusknop {
+	background-color:blue;
+	width:50px;
+	height:50px;
+	position:absolute;
+	right:655px;
+	top:70px;
+	opacity:0;
+}*/
+
+#neusknop:hover {
+	cursor:text;
+}
+
+#it {
+	opacity:10%;
+}
+
+#freddie{
+position:absolute;
+width:960px;
+height:490px;
+margin-left:-480px;
+}
+
+#scream {
+	display:none;
+}
